@@ -2,7 +2,7 @@
 #define STUDENT_H
 
 #define MAX_NAME 50
-#define MAX_BITS_ID 13
+#define MAX_BITS_ID 14
 
 typedef struct Student {
     char BITS_ID[MAX_BITS_ID];  // 13-character BITS_ID

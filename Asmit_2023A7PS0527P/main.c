@@ -31,7 +31,7 @@ int main() {
     display_students(students, count);
 
     // Step 2: Sort by CGPA (descending)
-    insertion_sort_branch(students, count);
+    insertion_sort(students, count);
 
     printf("\n--- Sorted Students (by CGPA descending) ---\n");
     display_students(students, count);
@@ -57,7 +57,8 @@ int main() {
 }
 
 
-
+// gcc main.c student.c sorting_branch.c sorting_roll.c hashing.c -o main
+// ./main
 
 
 
